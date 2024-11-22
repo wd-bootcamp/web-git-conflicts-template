@@ -11,9 +11,9 @@ This template has a few conflicts to help you practice resolving them.
 1. [command+click here to create a new repository on GitHub.com using the import repository feature](https://github.com/new/import).
 2. Use this URL to import the template:
 
-```
-https://github.com/neuefische/web-git-conflicts-template
-```
+    ```bash
+      https://github.com/wd-bootcamp/web-git-conflicts-template
+    ```
 
 3. Leave the `username` and `accesstoken or password` fields empty.
 4. Create it as `git-conflicts` in your own account. Click on "Begin import" and wait for the import to finish.
@@ -101,7 +101,7 @@ Switch to the `styling` branch locally and rebase it to `main`.
 
 Git now shows:
 
-```
+```bash
 Auto-merging styles.css
 CONFLICT (content): Merge conflict in styles.css
 error: could not apply 25cca8a... move max-width to custom property
@@ -133,7 +133,7 @@ Git opens an editor with the commit message for the rebased commit. Keep the mes
 
 Git now shows:
 
-```
+```bash
 [detached HEAD 473a5e2] move max-width to custom property
  1 file changed, 13 insertions(+), 1 deletion(-)
 Auto-merging styles.css
@@ -161,7 +161,7 @@ The rebase is now finished.
 
 If you run `git status` you should see:
 
-```
+```bash
 On branch styling
 Your branch and 'origin/styling' have diverged,
 and have 11 and 3 different commits each, respectively.
